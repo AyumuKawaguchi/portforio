@@ -1,0 +1,387 @@
+<header>
+  <h1 class="logo">
+    <span class="logo-title">Ayumu Kawaguchi's Portforio</span>
+    <span class="logo-desc">Web Engineer</span>
+  </h1>
+</header>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+  <div class ="collapse navbar-collapse" id="navbar-content">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" id="1">
+        <i class="awesome1"></i>
+        <a class="nav-link " href="#profile"> PROFILE <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <i class="awesome2"></i>
+        <a class="nav-link " href="#skill">SKILL</a>
+      </li>
+      <li class="nav-item">
+        <i class="awesome3"></i>
+        <a class="nav-link " href="#works">WORKS</a>
+      </li>
+      <li class="nav-item">
+        <i class="awesome4"></i>
+        <a class="nav-link " href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main id="contents" style="margin-top: 0px;">
+<%# プロフィール %>
+  <section class="profile-box" id="profile">
+    <div class="inner">
+      <div class="profile-title">
+      <i class="awesome5">PROFILE</i>
+
+      </div>
+      <div class="two-content">
+        <div class="image1">
+          <%=image_tag 'yaruki', class:'myimg', size: '300x300'%>
+        </div>
+        <div class="description-box">
+          <p class="text">はじめまして。平成5年生まれの25歳エンジニアのなおと(@naoto_7713)と申します。社会人歴（IT業界）4年目です。新卒では中小企業のSIerに入社しました。常駐先ではウォータフォール型でデスクトップアプリ開発に携わりました。1年目は開発、2年目は問い合わせ対応と業務効率化のツールを作成です。 ただ、自分で勉強していくうちにもっと開発をしたい！！Webに携わりたい！！と思い転職を決意。web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。（2018年8月12日更新）</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<%# スキル分野 %>
+  <section class="skill-box" id="skill">
+    <div class="inner">
+      <div class="skill-title">
+        <i class="awesome6">SKILL</i>
+      </div>
+  <%#  ここまでタイトル%>
+
+      <div class="skill-wrap">
+        <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              デザイン・コーディング
+            </h2>
+            <p class="skill-description">基本的な事は一通りできます。CSSフレームワークはbootstrap使いました。</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">HTML</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">CSS3</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              フロントエンド
+            </h2>
+            <p class="skill-description">jQueryをメインに簡単なアクションをつけることをチーム開発で行いました</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">jQuery</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Javascript</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              サーバーサイド
+            </h2>
+            <p class="skill-description">スクールカリキュラムを通して作品を３つほど作っています。</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Ruby</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Ruby on Rails</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              DB
+            </h2>
+            <p class="skill-description">MySQLをSQLの基礎を学び、GUIであるSequel Proを用いて使用しました。</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">MySQL</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              インフラ
+            </h2>
+            <p class="skill-description">スクールでAWSを一通り使い、個人でherokuを使ってみました。</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">AWS</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">heroku</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+       <div class="card">
+          <div class="skill-desc">
+            <h2 class="skill-desc-title">
+              <i class="skill-icon">
+              </i>
+              その他
+            </h2>
+            <p class="skill-description">GITを個人・チーム開発共に使用しターミナルコマンド・GUI共に操作を学び、Slackを用いて全ての連絡を行ないました。
+            チーム開発においてスケジュール管理にTrello,DB設計の為にLucid chartを用いています。</p>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                  <th scope="col">スキル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">GIT</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate1"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Slack</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Trello</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Lucid chart</td>
+                  <td>6ヶ月</td>
+                  <td>
+                    <span class="rating">
+                      <p class="rate rate2"></p>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<%# 成果物 %>
+  <section class="works-box" id="works">
+    <div class="inner">
+      <div class="works-title">
+        <i class="works-icon">WORKS</i>
+      </div>
+    </div>
+    <div class="works-wrap">
+      <figure class="works-card">
+        <%=image_tag 'back3', class:'portforio'%>
+        <figcaption class="portfoio-caption">
+          <p class="portforio-title">ポートフォリオ</p>
+          <p class="portforio-info">自身のポートフォリオサイト</p>
+          <p class="portforio-using">HTML/CSS/bootstrap5</p>
+          <p class="portforio-url">
+            <%= link_to "Git hub", "/", class: "git-link" %>
+          </p>
+        </figcaption>
+      </figure>
+      <figure class="works-card">
+        <%=image_tag 'cafe', class:'portforio'%>
+        <figcaption class="portfoio-caption">
+          <p class="portforio-title">個人開発アプリ</p>
+          <p class="portforio-info">rubyを使用した〜〜アプリ</p>
+          <p class="portforio-using">HTML/CSS/bootstrap5</p>
+          <p class="portforio-url">
+            <%= link_to "Git hub", "/", class: "git-link" %>
+          </p>
+        </figcaption>
+      </figure>
+      <figure class="works-card">
+        <%=image_tag 'back', class:'portforio'%>
+        <figcaption class="portfoio-caption">
+          <p class="portforio-title">bootstrap</p>
+          <p class="portforio-info">bootstrapを利用した様々な機能を実装したサイト</p>
+          <p class="portforio-using">HTML/CSS/bootstrap5</p>
+          <p class="portforio-url">
+            <%= link_to "Git hub", "/", class: "git-link" %>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+  <%# コンタクト %>
+  <section class="contact-box" id="contact">
+    <div class="inner">
+      <div class="contact-title">
+        <i class="contact-icon">CONTACT</i>
+        <p class="contact-info">何かあったらこちらまで</p>
+      </div>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-list" >
+        <a class="mail-icon" href="#">Mail</a>
+        <a class="twitter-icon" href="#">Twitter</a>
+      </div>
+    </div>
+  </section>
+  <%# フッター %>
+  <section class="footer-box navbar-dark bg-dark">
+    <div class="footer-inner">
+      <nav class="footer-link navbar-dark bg-dark">
+        <ul class="navbar-footer mr-auto">
+          <li class="nav-item">
+            <a class="footer-nav " href="#profile"> Profile </a>
+          <li class="nav-item">
+            <a class="footer-nav " href="#skill"> Skill </a>
+          <li class="nav-item">
+            <a class="footer-nav " href="#works"> Works </a>
+          <li class="nav-item">
+            <a class="footer-nav " href="#contact"> Contact </a>
+        </ul>
+      </nav>
+      <p class="copyright">Copyright©Ayumu Kawaguchi. All Rights Reserved.</p>
+    </div>
+  </section>
+</main>
+ 
+
+
+
+
