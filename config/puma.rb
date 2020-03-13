@@ -19,7 +19,7 @@ port        ENV['PORT'] || 3000
 environment ENV['RACK_ENV'] || 'development'
 
 # Specifies the `pidfile` that Puma will use.
-pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
+# pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
 # Specifies the number of `workers` to boot in clustered mode.
 # Workers are forked webserver processes. If using threads and workers together
@@ -40,7 +40,7 @@ preload_app!
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart
 
-rackup DefaultRackup
+# rackup DefaultRackup
 
 on_worker_boot do
   # Worker specific setup for Rails 4.1+
