@@ -314,7 +314,10 @@
     </div>
     <div class="works-wrap">
       <figure class="works-card">
-        <%=image_tag 'back3', class:'portforio'%>
+        <%= link_to("https://portforio-ak.herokuapp.com")do %>
+          <%= image_tag 'back3', class:'portforio'%>
+        <% end%>
+        <%# <a href="https://portforio-ak.herokuapp.com/" target="_blank"><img src="back3.jpg" width="250px"height="250px"></a> %>
         <figcaption class="portfoio-caption">
           <p class="portforio-title">ポートフォリオ</p>
           <p class="portforio-info">自身のポートフォリオサイト</p>
@@ -325,7 +328,7 @@
         </figcaption>
       </figure>
       <figure class="works-card">
-        <%=image_tag 'cafe', class:'portforio'%>
+        <%= link_to image_tag 'cafe', class:'portforio'%>
         <figcaption class="portfoio-caption">
           <p class="portforio-title">個人開発アプリ</p>
           <p class="portforio-info">rubyを使用した〜〜アプリ</p>
@@ -336,13 +339,15 @@
         </figcaption>
       </figure>
       <figure class="works-card">
-        <%=image_tag 'back', class:'portforio'%>
+        <%= link_to("https://portforio-ak.herokuapp.com")do %>
+          <%= image_tag 'back', class:'portforio'%>
+        <% end%>
         <figcaption class="portfoio-caption">
           <p class="portforio-title">bootstrap</p>
           <p class="portforio-info">bootstrapを利用した様々な機能を実装したサイト</p>
           <p class="portforio-using">HTML/CSS/bootstrap5</p>
           <p class="portforio-url">
-            <%= link_to "Git hub", "/", class: "git-link" %>
+            <%= link_to "Git hub", "https://github.com/AyumuKawaguchi/store", class: "git-link" %>
           </p>
         </figcaption>
       </figure>
