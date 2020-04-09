@@ -328,13 +328,15 @@
         </figcaption>
       </figure>
       <figure class="works-card">
-        <%= link_to image_tag 'cafe', class:'portforio'%>
+        <%= link_to("https://card-ak.herokuapp.com")do %>
+          <%= image_tag 'cafe', class:'portforio'%>
+        <% end%>
         <figcaption class="portfoio-caption">
           <p class="portforio-title">個人開発アプリ</p>
           <p class="portforio-info">rubyを使用した〜〜アプリ</p>
           <p class="portforio-using">HTML/CSS/bootstrap5</p>
           <p class="portforio-url">
-            <%= link_to "Git hub", "/", class: "git-link" %>
+            <%= link_to "Git hub", "https://github.com/AyumuKawaguchi/card", class: "git-link" %>
           </p>
         </figcaption>
       </figure>
