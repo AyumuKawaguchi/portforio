@@ -1,20 +1,14 @@
 # README
-自身の作品を乗せるためのサイト
+自己紹介と自身の作品を乗せるためのサイト
 
-# 機能一覧
-
-他サイトへのリンク
-非同期通信
-
-
-# 主要技術
+# 使用技術
 
 使用言語
 Ruby
 使用フレームワーク
-Ruby on Rails
-bootstrap
-使用ツール
-fontawesome
+Ruby on Rails5
+Bootstrap4
+使用DB
+MySQL
 使用プラットフォーム
 heroku
