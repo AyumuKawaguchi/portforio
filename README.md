@@ -8,7 +8,5 @@ Ruby
 使用フレームワーク
 Ruby on Rails5
 Bootstrap4
-使用DB
-MySQL
 使用プラットフォーム
 heroku
