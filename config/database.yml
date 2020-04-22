@@ -21,7 +21,6 @@ test:
   database: db/test.sqlite3
 
 production:
+  production:
   <<: *default
-  # database: db/production.sqlite3
-  adapter: pg
-  database: db/production.pg
+  database: portforio_production
